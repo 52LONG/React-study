@@ -13,3 +13,11 @@
     创建 .env 和.env.development 文件
    npm start的情况下执行  REACT_APP_API_URL = http://localhost:3001 
    npm run build 的情况下执行 REACT_APP_API_URL = http://online.com
+
+- npm i --save-dev @types/qs   ts版的qs
+
+- Custom Hook 提取并复用组件代码
+    useMount和useDebounce
+    写custom hooks的时候要用use开头
+- 使用js大部分报错都是在运行时（runtime）才会发现 ->弱类型
+  ts就会在写代码（静态代码）的时候就会报错 ->强类型
